@@ -7,15 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F25FAC7210841C000E7E29B /* PlistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25FAC6210841C000E7E29B /* PlistModel.swift */; };
 		3FC33AEA210779990099407A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33AE9210779990099407A /* AppDelegate.swift */; };
 		3FC33AEC210779990099407A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33AEB210779990099407A /* MasterViewController.swift */; };
 		3FC33AEE210779990099407A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33AED210779990099407A /* DetailViewController.swift */; };
 		3FC33AF1210779990099407A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC33AEF210779990099407A /* Main.storyboard */; };
 		3FC33AF32107799B0099407A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC33AF22107799B0099407A /* Assets.xcassets */; };
 		3FC33AF62107799B0099407A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC33AF42107799B0099407A /* LaunchScreen.storyboard */; };
+		3FC33B2521077F750099407A /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33B2421077F750099407A /* DetailModel.swift */; };
+		3FC33CD921080E450099407A /* CollectionCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CC421080E450099407A /* CollectionCellExtension.swift */; };
+		3FC33CDA21080E450099407A /* UISwitchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CC521080E450099407A /* UISwitchExtension.swift */; };
+		3FC33CDB21080E450099407A /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CC621080E450099407A /* NotificationExtension.swift */; };
+		3FC33CDC21080E450099407A /* UIImageExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CC721080E450099407A /* UIImageExtenstion.swift */; };
+		3FC33CDD21080E450099407A /* UIViewExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CC821080E450099407A /* UIViewExtenstion.swift */; };
+		3FC33CDE21080E450099407A /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CC921080E450099407A /* UIApplicationExtension.swift */; };
+		3FC33CDF21080E450099407A /* UINavigationBarExtension.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CCA21080E450099407A /* UINavigationBarExtension.swift.swift */; };
+		3FC33CE021080E450099407A /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CCB21080E450099407A /* BundleExtension.swift */; };
+		3FC33CE121080E450099407A /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CCC21080E450099407A /* UIBarButtonItemExtension.swift */; };
+		3FC33CE221080E450099407A /* UIImageViewExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CCD21080E450099407A /* UIImageViewExtenstion.swift */; };
+		3FC33CE321080E450099407A /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CCE21080E450099407A /* ButtonExtension.swift */; };
+		3FC33CE421080E450099407A /* CALayerExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CCF21080E450099407A /* CALayerExtenstion.swift */; };
+		3FC33CE521080E450099407A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CD021080E450099407A /* ColorExtension.swift */; };
+		3FC33CE621080E450099407A /* SequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CD121080E450099407A /* SequenceExtension.swift */; };
+		3FC33CE721080E450099407A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CD221080E450099407A /* StringExtension.swift */; };
+		3FC33CE821080E450099407A /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CD321080E450099407A /* TextFieldExtension.swift */; };
+		3FC33CE921080E450099407A /* UISplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CD421080E450099407A /* UISplitViewController.swift */; };
+		3FC33CEA21080E450099407A /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CD521080E450099407A /* DoubleExtension.swift */; };
+		3FC33CEB21080E450099407A /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CD621080E450099407A /* UserDefaultsExtension.swift */; };
+		3FC33CEC21080E450099407A /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CD721080E450099407A /* TableViewExtension.swift */; };
+		3FC33D0C21080ED90099407A /* BleConnectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CFA21080ED80099407A /* BleConnectTableViewCell.swift */; };
+		3FC33D0D21080ED90099407A /* VoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CFB21080ED80099407A /* VoiceCell.swift */; };
+		3FC33D0E21080ED90099407A /* PreferencesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CFC21080ED80099407A /* PreferencesTableViewCell.swift */; };
+		3FC33D0F21080ED90099407A /* QuantityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CFD21080ED80099407A /* QuantityCell.swift */; };
+		3FC33D1021080ED90099407A /* ChooseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CFE21080ED80099407A /* ChooseCell.swift */; };
+		3FC33D1121080ED90099407A /* NextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33CFF21080ED80099407A /* NextCell.swift */; };
+		3FC33D1221080ED90099407A /* EditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D0021080ED80099407A /* EditCell.swift */; };
+		3FC33D1321080ED90099407A /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D0121080ED80099407A /* SwitchCell.swift */; };
+		3FC33D1421080ED90099407A /* PreferenceDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D0221080ED80099407A /* PreferenceDefaultCell.swift */; };
+		3FC33D1E21080F280099407A /* OtherSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D1621080F280099407A /* OtherSettingModel.swift */; };
+		3FC33D1F21080F280099407A /* PrinterDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D1721080F280099407A /* PrinterDetailModel.swift */; };
+		3FC33D2021080F280099407A /* PlistHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D1821080F280099407A /* PlistHelper.swift */; };
+		3FC33D2121080F280099407A /* LabelPrinterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D1921080F280099407A /* LabelPrinterModel.swift */; };
+		3FC33D2221080F280099407A /* LabelPrinterListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D1A21080F280099407A /* LabelPrinterListModel.swift */; };
+		3FC33D2321080F280099407A /* KitchenPrinterListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D1B21080F280099407A /* KitchenPrinterListModel.swift */; };
+		3FC33D2421080F280099407A /* BleReaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D1C21080F280099407A /* BleReaderModel.swift */; };
+		3FC33D2521080F280099407A /* KitchenPrinterDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC33D1D21080F280099407A /* KitchenPrinterDetailModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F25FAC6210841C000E7E29B /* PlistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistModel.swift; sourceTree = "<group>"; };
 		3FC33AE6210779990099407A /* CodableForPropertyLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodableForPropertyLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC33AE9210779990099407A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC33AEB210779990099407A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +64,44 @@
 		3FC33AF22107799B0099407A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC33AF52107799B0099407A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC33AF72107799B0099407A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC33B2421077F750099407A /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		3FC33CC421080E450099407A /* CollectionCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCellExtension.swift; sourceTree = "<group>"; };
+		3FC33CC521080E450099407A /* UISwitchExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISwitchExtension.swift; sourceTree = "<group>"; };
+		3FC33CC621080E450099407A /* NotificationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		3FC33CC721080E450099407A /* UIImageExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtenstion.swift; sourceTree = "<group>"; };
+		3FC33CC821080E450099407A /* UIViewExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtenstion.swift; sourceTree = "<group>"; };
+		3FC33CC921080E450099407A /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		3FC33CCA21080E450099407A /* UINavigationBarExtension.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarExtension.swift.swift; sourceTree = "<group>"; };
+		3FC33CCB21080E450099407A /* BundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		3FC33CCC21080E450099407A /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		3FC33CCD21080E450099407A /* UIImageViewExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtenstion.swift; sourceTree = "<group>"; };
+		3FC33CCE21080E450099407A /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		3FC33CCF21080E450099407A /* CALayerExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtenstion.swift; sourceTree = "<group>"; };
+		3FC33CD021080E450099407A /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		3FC33CD121080E450099407A /* SequenceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceExtension.swift; sourceTree = "<group>"; };
+		3FC33CD221080E450099407A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		3FC33CD321080E450099407A /* TextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		3FC33CD421080E450099407A /* UISplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISplitViewController.swift; sourceTree = "<group>"; };
+		3FC33CD521080E450099407A /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		3FC33CD621080E450099407A /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		3FC33CD721080E450099407A /* TableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		3FC33CFA21080ED80099407A /* BleConnectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleConnectTableViewCell.swift; sourceTree = "<group>"; };
+		3FC33CFB21080ED80099407A /* VoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceCell.swift; sourceTree = "<group>"; };
+		3FC33CFC21080ED80099407A /* PreferencesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesTableViewCell.swift; sourceTree = "<group>"; };
+		3FC33CFD21080ED80099407A /* QuantityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantityCell.swift; sourceTree = "<group>"; };
+		3FC33CFE21080ED80099407A /* ChooseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseCell.swift; sourceTree = "<group>"; };
+		3FC33CFF21080ED80099407A /* NextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextCell.swift; sourceTree = "<group>"; };
+		3FC33D0021080ED80099407A /* EditCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCell.swift; sourceTree = "<group>"; };
+		3FC33D0121080ED80099407A /* SwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		3FC33D0221080ED80099407A /* PreferenceDefaultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceDefaultCell.swift; sourceTree = "<group>"; };
+		3FC33D1621080F280099407A /* OtherSettingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherSettingModel.swift; sourceTree = "<group>"; };
+		3FC33D1721080F280099407A /* PrinterDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterDetailModel.swift; sourceTree = "<group>"; };
+		3FC33D1821080F280099407A /* PlistHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistHelper.swift; sourceTree = "<group>"; };
+		3FC33D1921080F280099407A /* LabelPrinterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPrinterModel.swift; sourceTree = "<group>"; };
+		3FC33D1A21080F280099407A /* LabelPrinterListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPrinterListModel.swift; sourceTree = "<group>"; };
+		3FC33D1B21080F280099407A /* KitchenPrinterListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitchenPrinterListModel.swift; sourceTree = "<group>"; };
+		3FC33D1C21080F280099407A /* BleReaderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleReaderModel.swift; sourceTree = "<group>"; };
+		3FC33D1D21080F280099407A /* KitchenPrinterDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitchenPrinterDetailModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +134,78 @@
 		3FC33AE8210779990099407A /* CodableForPropertyLists */ = {
 			isa = PBXGroup;
 			children = (
+				3FC33D1521080F280099407A /* SettingModel */,
+				3FC33CEE21080ED80099407A /* View */,
+				3FC33CC321080E450099407A /* Extension */,
 				3FC33AE9210779990099407A /* AppDelegate.swift */,
 				3FC33AEB210779990099407A /* MasterViewController.swift */,
 				3FC33AED210779990099407A /* DetailViewController.swift */,
+				3FC33B2421077F750099407A /* DetailModel.swift */,
+				3F25FAC6210841C000E7E29B /* PlistModel.swift */,
 				3FC33AEF210779990099407A /* Main.storyboard */,
 				3FC33AF22107799B0099407A /* Assets.xcassets */,
 				3FC33AF42107799B0099407A /* LaunchScreen.storyboard */,
 				3FC33AF72107799B0099407A /* Info.plist */,
 			);
 			path = CodableForPropertyLists;
+			sourceTree = "<group>";
+		};
+		3FC33CC321080E450099407A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FC33CC421080E450099407A /* CollectionCellExtension.swift */,
+				3FC33CC521080E450099407A /* UISwitchExtension.swift */,
+				3FC33CC621080E450099407A /* NotificationExtension.swift */,
+				3FC33CC721080E450099407A /* UIImageExtenstion.swift */,
+				3FC33CC821080E450099407A /* UIViewExtenstion.swift */,
+				3FC33CC921080E450099407A /* UIApplicationExtension.swift */,
+				3FC33CCA21080E450099407A /* UINavigationBarExtension.swift.swift */,
+				3FC33CCB21080E450099407A /* BundleExtension.swift */,
+				3FC33CCC21080E450099407A /* UIBarButtonItemExtension.swift */,
+				3FC33CCD21080E450099407A /* UIImageViewExtenstion.swift */,
+				3FC33CCE21080E450099407A /* ButtonExtension.swift */,
+				3FC33CCF21080E450099407A /* CALayerExtenstion.swift */,
+				3FC33CD021080E450099407A /* ColorExtension.swift */,
+				3FC33CD121080E450099407A /* SequenceExtension.swift */,
+				3FC33CD221080E450099407A /* StringExtension.swift */,
+				3FC33CD321080E450099407A /* TextFieldExtension.swift */,
+				3FC33CD421080E450099407A /* UISplitViewController.swift */,
+				3FC33CD521080E450099407A /* DoubleExtension.swift */,
+				3FC33CD621080E450099407A /* UserDefaultsExtension.swift */,
+				3FC33CD721080E450099407A /* TableViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3FC33CEE21080ED80099407A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FC33CFA21080ED80099407A /* BleConnectTableViewCell.swift */,
+				3FC33CFB21080ED80099407A /* VoiceCell.swift */,
+				3FC33CFC21080ED80099407A /* PreferencesTableViewCell.swift */,
+				3FC33CFD21080ED80099407A /* QuantityCell.swift */,
+				3FC33CFE21080ED80099407A /* ChooseCell.swift */,
+				3FC33CFF21080ED80099407A /* NextCell.swift */,
+				3FC33D0021080ED80099407A /* EditCell.swift */,
+				3FC33D0121080ED80099407A /* SwitchCell.swift */,
+				3FC33D0221080ED80099407A /* PreferenceDefaultCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FC33D1521080F280099407A /* SettingModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FC33D1621080F280099407A /* OtherSettingModel.swift */,
+				3FC33D1721080F280099407A /* PrinterDetailModel.swift */,
+				3FC33D1821080F280099407A /* PlistHelper.swift */,
+				3FC33D1921080F280099407A /* LabelPrinterModel.swift */,
+				3FC33D1A21080F280099407A /* LabelPrinterListModel.swift */,
+				3FC33D1B21080F280099407A /* KitchenPrinterListModel.swift */,
+				3FC33D1C21080F280099407A /* BleReaderModel.swift */,
+				3FC33D1D21080F280099407A /* KitchenPrinterDetailModel.swift */,
+			);
+			path = SettingModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +250,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 3FC33ADD210779990099407A;
 			productRefGroup = 3FC33AE7210779990099407A /* Products */;
@@ -138,9 +280,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC33CE621080E450099407A /* SequenceExtension.swift in Sources */,
+				3FC33B2521077F750099407A /* DetailModel.swift in Sources */,
+				3FC33D1221080ED90099407A /* EditCell.swift in Sources */,
+				3FC33D2221080F280099407A /* LabelPrinterListModel.swift in Sources */,
+				3FC33D1E21080F280099407A /* OtherSettingModel.swift in Sources */,
+				3FC33CDA21080E450099407A /* UISwitchExtension.swift in Sources */,
+				3FC33CEC21080E450099407A /* TableViewExtension.swift in Sources */,
+				3FC33D1F21080F280099407A /* PrinterDetailModel.swift in Sources */,
+				3FC33D1321080ED90099407A /* SwitchCell.swift in Sources */,
+				3FC33CDE21080E450099407A /* UIApplicationExtension.swift in Sources */,
+				3FC33D2121080F280099407A /* LabelPrinterModel.swift in Sources */,
+				3FC33D1121080ED90099407A /* NextCell.swift in Sources */,
+				3FC33CDD21080E450099407A /* UIViewExtenstion.swift in Sources */,
+				3FC33CE421080E450099407A /* CALayerExtenstion.swift in Sources */,
+				3FC33D2421080F280099407A /* BleReaderModel.swift in Sources */,
+				3FC33CE921080E450099407A /* UISplitViewController.swift in Sources */,
 				3FC33AEE210779990099407A /* DetailViewController.swift in Sources */,
+				3FC33CE521080E450099407A /* ColorExtension.swift in Sources */,
+				3FC33CE221080E450099407A /* UIImageViewExtenstion.swift in Sources */,
 				3FC33AEC210779990099407A /* MasterViewController.swift in Sources */,
+				3FC33D0E21080ED90099407A /* PreferencesTableViewCell.swift in Sources */,
+				3FC33D2521080F280099407A /* KitchenPrinterDetailModel.swift in Sources */,
+				3FC33CE121080E450099407A /* UIBarButtonItemExtension.swift in Sources */,
+				3FC33CDC21080E450099407A /* UIImageExtenstion.swift in Sources */,
+				3FC33D1021080ED90099407A /* ChooseCell.swift in Sources */,
+				3FC33D0F21080ED90099407A /* QuantityCell.swift in Sources */,
+				3F25FAC7210841C000E7E29B /* PlistModel.swift in Sources */,
+				3FC33CD921080E450099407A /* CollectionCellExtension.swift in Sources */,
+				3FC33CEB21080E450099407A /* UserDefaultsExtension.swift in Sources */,
+				3FC33CEA21080E450099407A /* DoubleExtension.swift in Sources */,
+				3FC33D0D21080ED90099407A /* VoiceCell.swift in Sources */,
+				3FC33CE821080E450099407A /* TextFieldExtension.swift in Sources */,
+				3FC33D0C21080ED90099407A /* BleConnectTableViewCell.swift in Sources */,
+				3FC33D2021080F280099407A /* PlistHelper.swift in Sources */,
+				3FC33D2321080F280099407A /* KitchenPrinterListModel.swift in Sources */,
+				3FC33CDF21080E450099407A /* UINavigationBarExtension.swift.swift in Sources */,
+				3FC33CDB21080E450099407A /* NotificationExtension.swift in Sources */,
+				3FC33CE321080E450099407A /* ButtonExtension.swift in Sources */,
+				3FC33D1421080ED90099407A /* PreferenceDefaultCell.swift in Sources */,
+				3FC33CE721080E450099407A /* StringExtension.swift in Sources */,
 				3FC33AEA210779990099407A /* AppDelegate.swift in Sources */,
+				3FC33CE021080E450099407A /* BundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,15 +467,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4VS4GFB76H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CodableForPropertyLists/AppBase/ThirdSDK/TPDirect",
+					"$(PROJECT_DIR)/CodableForPropertyLists/AppBase/ThirdSDK/StarSDK",
+				);
 				INFOPLIST_FILE = CodableForPropertyLists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CodableForPropertyLists/AppBase/ThirdSDK/TSCSDK",
+					"$(PROJECT_DIR)/CodableForPropertyLists/AppBase/ThirdSDK/ACSBluetooth",
+					"$(PROJECT_DIR)/CodableForPropertyLists/AppBase/ThirdSDK/epsonSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.laibit.CodableForPropertyLists;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -304,15 +496,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4VS4GFB76H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CodableForPropertyLists/AppBase/ThirdSDK/TPDirect",
+					"$(PROJECT_DIR)/CodableForPropertyLists/AppBase/ThirdSDK/StarSDK",
+				);
 				INFOPLIST_FILE = CodableForPropertyLists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CodableForPropertyLists/AppBase/ThirdSDK/TSCSDK",
+					"$(PROJECT_DIR)/CodableForPropertyLists/AppBase/ThirdSDK/ACSBluetooth",
+					"$(PROJECT_DIR)/CodableForPropertyLists/AppBase/ThirdSDK/epsonSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.laibit.CodableForPropertyLists;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

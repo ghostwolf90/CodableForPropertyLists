@@ -36,7 +36,7 @@ class DetailModel: NSObject {
         return url
     }
     
-    func getDetailValue(){
+    func getDetailValue() -> TablePrinterSet{
         let url = getURL(plistName: "DetailSetting")
         var settings: TablePrinterSet?
         do {
@@ -47,6 +47,7 @@ class DetailModel: NSObject {
         } catch {
             print(error)
         }
+        return settings!
     }
     
     func setDetailValue(){

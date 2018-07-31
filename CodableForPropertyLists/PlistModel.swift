@@ -47,7 +47,6 @@ class PlistModel: NSObject {
         
         let selectPrinter = PlistSetting(id: "selectPrinter", title: "印單機選擇", subTitle: "", displayType: .next)
         sections.append(Section(name: "印單機連線", plistSettings: [selectPrinter]))
-        print(sections)
         
         return sections
     }

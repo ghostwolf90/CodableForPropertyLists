@@ -15,7 +15,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //DetailModel.sharedInstance.setDetailValue()
+        DetailModel.sharedInstance.setDetailValue()
         
         DetailModel.sharedInstance.getDetailValue()
         
